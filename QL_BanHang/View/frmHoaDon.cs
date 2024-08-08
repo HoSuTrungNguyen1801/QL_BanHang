@@ -35,20 +35,20 @@ namespace QL_BanHang.View
         }
         private void bingding()
         {
-            txtMa.DataBindings.Clear();
-            txtMa.DataBindings.Add("Text", dtgvDSHD.DataSource,"MaHD");
-            txtNgayLap.DataBindings.Clear();
-            txtNgayLap.DataBindings.Add("Text", dtgvDSHD.DataSource, "NgayLap");
-            txtNhanVien.DataBindings.Clear();
-            txtNhanVien.DataBindings.Add("Text", dtgvDSHD.DataSource, "TenNV");
-            cmbKhachHang.DataBindings.Clear();
-            cmbKhachHang.DataBindings.Add("Text", dtgvDSHD.DataSource, "TenKH");
+            //txtMa.DataBindings.Clear();
+            //txtMa.DataBindings.Add("Text", dtgvDSHD.DataSource, "MaHD");
+            //txtNgayLap.DataBindings.Clear();
+            //txtNgayLap.DataBindings.Add("Text", dtgvDSHD.DataSource, "NgayLap");
+            //txtNhanVien.DataBindings.Clear();
+            //txtNhanVien.DataBindings.Add("Text", dtgvDSHD.DataSource, "TenNV");
+            //cmbKhachHang.DataBindings.Clear();
+            //cmbKhachHang.DataBindings.Add("Text", dtgvDSHD.DataSource, "TenKH");
         }
 
-        //private void bingding1()
+        //private void bingding()
         //{
         //    txtDonGia.DataBindings.Clear();
-        //    txtDonGia.DataBindings.Add("Text", dtgvDSHH.DataSource, "DonGia");
+        //    txtMa.DataBindings.Add("Text", dtgvDSHH.DataSource, "MaHD");
         //    txtSL.DataBindings.Clear();
         //    txtSL.DataBindings.Add("Text", dtgvDSHH.DataSource, "SoLuong");
         //    cmbHH.DataBindings.Clear();

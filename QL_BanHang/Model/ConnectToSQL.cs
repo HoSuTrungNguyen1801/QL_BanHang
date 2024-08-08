@@ -35,7 +35,7 @@ namespace QL_BanHang.Model
         #region Contrustor
         public ConnectToSQL()
         {
-            StrCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\QL_BanHang\QL_BanHang\DATA\QL_BanHang.mdf;Integrated Security=True;Encrypt=True; User = sa; Password=123";
+            StrCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\QL_BanHang\QL_BanHang\DATA\QL_BanHang.mdf;Integrated Security=True";
             Conn = new SqlConnection(StrCon);
         }
         #endregion
