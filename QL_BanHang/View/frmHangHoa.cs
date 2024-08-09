@@ -162,5 +162,11 @@ namespace QL_BanHang.View
             btnHuy.Enabled = true;
             txtSL.Enabled = true;
         }
-    }
+
+		private void bt_hoadon_Click(object sender, EventArgs e)
+		{
+            frmHoaDon hd = new frmHoaDon();
+            hd.ShowDialog();
+		}
+	}
 }

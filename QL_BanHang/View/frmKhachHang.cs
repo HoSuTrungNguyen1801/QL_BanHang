@@ -176,5 +176,11 @@ namespace QL_BanHang.View
 		{
 
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+            frmHangHoa hh = new frmHangHoa();
+            hh.ShowDialog();
+		}
 	}
 }
